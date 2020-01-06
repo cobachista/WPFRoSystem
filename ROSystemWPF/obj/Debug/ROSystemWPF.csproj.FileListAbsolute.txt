@@ -1,0 +1,14 @@
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\bin\Debug\ROSystemWPF.exe.config
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\bin\Debug\ROSystemWPF.exe
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\bin\Debug\ROSystemWPF.pdb
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.csprojAssemblyReference.cache
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\MainWindow.g.cs
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\App.g.cs
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF_MarkupCompile.cache
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF_MarkupCompile.lref
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\MainWindow.baml
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.g.resources
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.Properties.Resources.resources
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.csproj.GenerateResource.cache
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.exe
+C:\Users\IGarcia1\source\repos\ROSystemWPF\ROSystemWPF\obj\Debug\ROSystemWPF.pdb
