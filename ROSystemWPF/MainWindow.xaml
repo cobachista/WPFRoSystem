@@ -23,15 +23,19 @@
                 <RowDefinition Height="*"  />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Button x:Name="btnReports"   Grid.Column="0"  Grid.Row="1"  FontSize="22" Margin="0,50" Content="Reports" Width="200"  Height="150" Cursor="Hand" Background="#FF5EC0CA" />
-            <Button x:Name="btnPurchase"  Grid.Column="1"  Grid.Row="1"  FontSize="22" Content="Purchase" Width="200" Margin="0,50"  Height="150" Cursor="Hand" Background="#FF5EC0CA"  />
-            <Button x:Name="btnSupplier"  Grid.Column="2"  Grid.Row="1"  FontSize="22" Content="Supplier" Width="200"  Height="150"  Cursor="Hand" Background="#FF5EC0CA" />
-            <Button x:Name="btnInventary" Grid.Column="0"  Grid.Row="2" FontSize="22" Content="Inventary" Width="200"  Height="150" Cursor="Hand"  Background="#FF5EC0CA" />
-            <Button x:Name="btnTransfer"  Grid.Column="1"  Grid.Row="2" FontSize="22" Content="Transfer" Width="200"   Height="150" Cursor="Hand" Background="#FF5EC0CA" />
-            <Button x:Name="btnSigns"     Grid.Column="2"  Grid.Row="2" FontSize="22" Content="Signs"   Width="200"    Height="150" Cursor="Hand" Background="#FF5EC0CA" />
-            <Button x:Name="DateTime"     Grid.Column="3"  Grid.Row="1" FontSize="22"  Margin="6.667,53.667,4.333,43.333" Cursor="Hand" Background="#FF5EC0CA" />
+            <Button x:Name="btnReports"   Grid.Column="0"  Grid.Row="1"  FontSize="22" Margin="0,50" Content="Reports" Width="200"  Height="150" Cursor="Hand" Background="#FF5EC0CA" Click="btnReports_Click" />
+            <Button x:Name="btnPurchase"  Grid.Column="1"  Grid.Row="1"  FontSize="22" Content="Purchase" Width="200" Margin="0,50"  Height="150" Cursor="Hand" Background="#FF5EC0CA" Click="btnPurchase_Click"  />
+            <Button x:Name="btnSupplier"  Grid.Column="2"  Grid.Row="1"  FontSize="22" Content="Supplier" Width="200"  Height="150"  Cursor="Hand" Background="#FF5EC0CA" Click="btnSupplier_Click" />
+            <Button x:Name="btnInventary" Grid.Column="0"  Grid.Row="2" FontSize="22" Content="Inventary" Width="200"  Height="150" Cursor="Hand"  Background="#FF5EC0CA" Click="btnInventary_Click" />
+            <Button x:Name="btnTransfer"  Grid.Column="1"  Grid.Row="2" FontSize="22" Content="Transfer" Width="200"   Height="150" Cursor="Hand" Background="#FF5EC0CA" Click="btnTransfer_Click" />
+            <Button x:Name="btnSigns"     Grid.Column="2"  Grid.Row="2" FontSize="22" Content="Signs"   Width="200"    Height="150" Cursor="Hand" Background="#FF5EC0CA" Click="btnSigns_Click" />
+
             <Label  x:Name="Title"        FontWeight="Black" Grid.Column="1" FontSize="22" HorizontalAlignment="Center" Content="DashBoard"/>
-            <Button x:Name="SignUp"     Grid.Column="3" Grid.Row="1" Margin="12.667,249.667,11.333,0.333" Grid.RowSpan="2" Cursor="Hand" Background="#FF5EC0CA"   />
+            <Button x:Name="SignUp" Click="SignUp_Click"     Grid.Column="3" Grid.Row="1" Margin="12.667,249.667,13.333,0.333" Grid.RowSpan="2" Cursor="Hand" Background="#FF5EC0CA"   >
+                <Image Source="C:\Users\IGarcia1\Documents\Iconos\icon.png" Stretch="None"></Image>
+            </Button>
+
+
         </Grid>
     </StackPanel>
 </Window>

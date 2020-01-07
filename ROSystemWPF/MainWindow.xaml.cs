@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace ROSystemWPF
 {
@@ -23,9 +24,45 @@ namespace ROSystemWPF
         public MainWindow()
         {
             InitializeComponent();
+          
+
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+      
+
+        private void SignUp_Click(object sender, RoutedEventArgs e) {
+
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void btnReports_Click(object sender, RoutedEventArgs e)
+        {
+            Reports rs = new Reports();
+            this.Close();
+            rs.Show();
+        }
+
+        private void btnPurchase_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSupplier_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnInventary_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTransfer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSigns_Click(object sender, RoutedEventArgs e)
         {
 
         }
