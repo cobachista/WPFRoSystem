@@ -28,3 +28,5 @@ C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\ROSy
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\ROSystemWPF.pdb
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Reports.g.cs
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Reports.baml
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Purchase.g.cs
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Purchase.baml

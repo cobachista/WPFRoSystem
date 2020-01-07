@@ -44,7 +44,9 @@ namespace ROSystemWPF
 
         private void btnPurchase_Click(object sender, RoutedEventArgs e)
         {
-
+            Purchase ps = new Purchase();
+            this.Close();
+            ps.Show();
         }
 
         private void btnSupplier_Click(object sender, RoutedEventArgs e)
