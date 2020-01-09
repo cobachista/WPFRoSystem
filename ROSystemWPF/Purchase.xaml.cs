@@ -22,6 +22,12 @@ namespace ROSystemWPF
         public Purchase()
         {
             InitializeComponent();
+            TxtDate.Text = DateTime.Now.ToString("d");
         }
+
+
+
+
+      
     }
 }
