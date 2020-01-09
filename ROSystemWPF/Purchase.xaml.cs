@@ -25,9 +25,6 @@ namespace ROSystemWPF
             TxtDate.Text = DateTime.Now.ToString("d");
         }
 
-
-
-
       
     }
 }
