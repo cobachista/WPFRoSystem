@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="ThreeDBorderWindow"
-        Title="Purchase" Height="500" Width="1920" WindowStartupLocation="CenterScreen">
+        Title="Purchase" Height="500" Width="1920" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
+            <ColumnDefinition Width="207*" />
+            <ColumnDefinition Width="1708*"/>
 
         </Grid.ColumnDefinitions>
 
@@ -20,29 +21,24 @@
             <RowDefinition Height="106*" />
 
         </Grid.RowDefinitions>
-        <Border Grid.Column="0" Grid.Row="0" BorderBrush="Black" BorderThickness="1" Margin="0,0,0.333,5.667"  />
+        <Border Grid.Column="0" Grid.Row="0" BorderBrush="Black" BorderThickness="1" Margin="0,0,0.667,5.333" Grid.ColumnSpan="2"  />
 
 
-        <TextBox  x:Name="TxtDate"     HorizontalAlignment="Left" Height="30" Margin="103,14,0,0" TextWrapping="Wrap" FontSize="18" IsEnabled="False" VerticalAlignment="Top" Width="174" />
-        <Label  x:Name="lbDate"  FontSize="22" Content="Date" HorizontalAlignment="Left" Margin="12,9,0,0" VerticalAlignment="Top" Width="301" Height="39"/>
-        <Label  x:Name="lbOrder" FontSize="22" Content="Order" HorizontalAlignment="Left" Margin="15,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.07,0.103" Width="318" Height="39"/>
-        <TextBox HorizontalAlignment="Left"  FontSize="22" Height="30" Margin="100,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
-        <Label Content="Supplier" FontSize="22" HorizontalAlignment="Left" Margin="317,9,0,0" VerticalAlignment="Top" Width="368" Height="39"/>
-        <ComboBox  HorizontalAlignment="Left" FontSize="22" Height="30"  Margin="476,14,0,0" VerticalAlignment="Top" Width="199" />
-        <Label Content="Material Clave" FontSize="22" HorizontalAlignment="Left" Margin="320,51,0,0" VerticalAlignment="Top" Width="360" Height="39"/>
-        <ComboBox HorizontalAlignment="Left" FontSize="22" Height="30" Margin="476,56,0,0" VerticalAlignment="Top" Width="199"/>
-        <Label Content="Material Name" FontSize="22"  HorizontalAlignment="Left" Margin="722,9,0,0" VerticalAlignment="Top" Width="554" Height="39"/>
-        <Label Content="Quantity" FontSize="22" HorizontalAlignment="Left" Margin="725,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.375,-1.169" Width="547" Height="39"/>
-        <TextBox HorizontalAlignment="Left" Height="30" IsEnabled="False" Margin="895,14,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="376"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="896,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" />
-        <Button Content="Add" FontSize="22"   HorizontalAlignment="Left" Margin="18,104,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="-1.564,-2.373"/>
-        <Button Content="Clear" FontSize="22"  HorizontalAlignment="Left" Margin="170,103,0,0" VerticalAlignment="Top" Width="132"/>
-        <Grid Margin="14,17.333,39.333,41.667" Grid.Row="1">
-            <DataGrid HorizontalAlignment="Left" Height="259" VerticalAlignment="Top" Width="1860"/>
-
-
-
-        </Grid>
+        <TextBox  x:Name="TxtDate"     HorizontalAlignment="Left" Height="30" Margin="103,14,0,0" TextWrapping="Wrap" FontSize="18" IsEnabled="False" VerticalAlignment="Top" Width="174" Grid.ColumnSpan="2" />
+        <Label  x:Name="lbDate"  FontSize="22" Content="Date" HorizontalAlignment="Left" Margin="12,9,0,0" VerticalAlignment="Top" Width="301" Height="39" Grid.ColumnSpan="2"/>
+        <Label  x:Name="lbOrder" FontSize="22" Content="Order" HorizontalAlignment="Left" Margin="15,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.07,0.103" Width="318" Height="39" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="22" Height="30" Margin="100,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Grid.ColumnSpan="2"/>
+        <Label Content="Supplier" FontSize="22" HorizontalAlignment="Left" Margin="110,9,0,0" VerticalAlignment="Top" Width="368" Height="39" Grid.Column="1"/>
+        <ComboBox  HorizontalAlignment="Left" FontSize="22" Height="30"  Margin="269,14,0,0" VerticalAlignment="Top" Width="199" Grid.Column="1" />
+        <Label Content="Material Clave" FontSize="22" HorizontalAlignment="Left" Margin="113,51,0,0" VerticalAlignment="Top" Width="360" Height="39" Grid.Column="1"/>
+        <ComboBox HorizontalAlignment="Left" FontSize="22" Height="30" Margin="269,56,0,0" VerticalAlignment="Top" Width="199" Grid.Column="1"/>
+        <Label Content="Material Name" FontSize="22"  HorizontalAlignment="Left" Margin="515,9,0,0" VerticalAlignment="Top" Width="554" Height="39" Grid.Column="1"/>
+        <Label Content="Quantity" FontSize="22" HorizontalAlignment="Left" Margin="518,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.375,-1.169" Width="547" Height="39" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="30" IsEnabled="False"  Margin="688,14,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="376" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="30" FontSize="22"     Margin="689,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Grid.Column="1" />
+        <Button Content="Add" FontSize="22"   HorizontalAlignment="Left"  Margin="18,104,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="-1.564,-2.373"/>
+        <Button Content="Clear" FontSize="22"  HorizontalAlignment="Left" Margin="170,103,0,0" VerticalAlignment="Top" Width="132" Grid.ColumnSpan="2"/>
+        <Grid Margin="14,17.667,32.667,17" Grid.Row="1" Grid.ColumnSpan="2"/>
 
 
 
