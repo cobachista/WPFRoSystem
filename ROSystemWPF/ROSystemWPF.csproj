@@ -55,12 +55,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Inventary.xaml.cs">
+      <DependentUpon>Inventary.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Purchase.xaml.cs">
       <DependentUpon>Purchase.xaml</DependentUpon>
     </Compile>
     <Compile Include="Reports.xaml.cs">
       <DependentUpon>Reports.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Signs.xaml.cs">
+      <DependentUpon>Signs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer.xaml.cs">
+      <DependentUpon>Transfer.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Inventary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,6 +91,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Reports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Signs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transfer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="ThreeDBorderWindow"
-        Title="Purchase" Height="500" Width="1920" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="Purchase" Height="1080" Width="1920" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -37,7 +37,15 @@
         <TextBox HorizontalAlignment="Left" Height="30" FontSize="22"     Margin="896,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" />
         <Button Content="Add" FontSize="22"   HorizontalAlignment="Left"  Margin="18,104,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="-1.564,-2.373"/>
         <Button Content="Clear" FontSize="22"  HorizontalAlignment="Left" Margin="170,103,0,0" VerticalAlignment="Top" Width="132"/>
-        <Grid Margin="14,17.667,32.667,17" Grid.Row="1"/>
+        <DataGrid HorizontalAlignment="Left" Height="269" Margin="13,26.333,-155.333,0" Grid.Row="1" VerticalAlignment="Top" Width="1217">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Order"  />
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Clave Material"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="MaterialName"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Name Material"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Quantity"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
 
 
