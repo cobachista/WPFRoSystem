@@ -51,22 +51,31 @@ namespace ROSystemWPF
 
         private void btnSupplier_Click(object sender, RoutedEventArgs e)
         {
-
+            Supplier sp = new Supplier();
+            this.Close();
+            sp.Show();
         }
 
         private void btnInventary_Click(object sender, RoutedEventArgs e)
         {
-
+            Inventary inv = new Inventary();
+            this.Close();
+            inv.Show();
         }
 
         private void btnTransfer_Click(object sender, RoutedEventArgs e)
         {
+            Transfer tr = new Transfer();
+            this.Close();
+            tr.Show();
 
         }
 
         private void btnSigns_Click(object sender, RoutedEventArgs e)
         {
-
+            Signs s = new Signs();
+            this.Close();
+            s.Show();
         }
     }
 }

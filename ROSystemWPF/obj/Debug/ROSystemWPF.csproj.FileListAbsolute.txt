@@ -30,3 +30,11 @@ C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Repo
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Reports.baml
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Purchase.g.cs
 C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Purchase.baml
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Inventary.g.cs
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Signs.g.cs
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Supplier.g.cs
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Transfer.g.cs
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Inventary.baml
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Signs.baml
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Transfer.baml
+C:\Users\IGarcia1\Source\Repos\cobachista\WPFRoSystem\ROSystemWPF\obj\Debug\Supplier.baml

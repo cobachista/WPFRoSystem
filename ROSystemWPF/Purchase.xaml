@@ -37,9 +37,9 @@
         <TextBox HorizontalAlignment="Left" Height="30" FontSize="22"     Margin="896,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" />
         <Button Content="Add" FontSize="22"   HorizontalAlignment="Left"  Margin="18,104,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="-1.564,-2.373"/>
         <Button Content="Clear" FontSize="22"  HorizontalAlignment="Left" Margin="170,103,0,0" VerticalAlignment="Top" Width="132"/>
-        <DataGrid HorizontalAlignment="Left" Height="269" Margin="13,26.333,-155.333,0" Grid.Row="1" VerticalAlignment="Top" Width="1217">
+        <DataGrid x:Name="MaterialsTable"   HorizontalAlignment="Left" Height="598" Margin="13,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1829" FontFamily="Segoe UI Emoji" FontSize="20">
             <DataGrid.Columns>
-                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Order"  />
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Order" />
                 <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Clave Material"/>
                 <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="MaterialName"/>
                 <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Name Material"/>
